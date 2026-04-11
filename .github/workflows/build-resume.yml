@@ -1,0 +1,35 @@
+name: Build Resume
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'resume.md'
+      - '.github/workflows/build-resume.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build PDF
+        uses: docker://pandoc/latex:latest
+        with:
+          args: >-
+            resume.md
+            --pdf-engine=xelatex
+            -o resume.pdf
+
+      - name: Publish to 'latest' release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest Resume
+          files: resume.pdf
+          make_latest: 'true'
