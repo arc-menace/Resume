@@ -24,7 +24,7 @@ jobs:
           args: >-
             resume.md
             --pdf-engine=xelatex
-            -o resume.pdf
+            -o JoeHahnResume.pdf
 
       - name: Publish to 'latest' release
         uses: softprops/action-gh-release@v2
