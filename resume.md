@@ -1,16 +1,16 @@
+---
 geometry: margin=0.6in
 fontsize: 10pt
 colorlinks: true
 linkcolor: purple
 urlcolor: purple
 header-includes:
-
-\pagenumbering{gobble}
-\usepackage{titlesec}
-\titlespacing*{\section}{0pt}{6pt}{2pt}
-\titlespacing*{\subsection}{0pt}{4pt}{1pt}
-\setlength{\parskip}{2pt}
-
+  - \pagenumbering{gobble}
+  - \usepackage{titlesec}
+  - \titlespacing*{\section}{0pt}{6pt}{2pt}
+  - \titlespacing*{\subsection}{0pt}{4pt}{1pt}
+  - \setlength{\parskip}{2pt}
+---
 
 Joseph Hahn
 Software Engineer | Bentonville, AR
