@@ -31,5 +31,5 @@ jobs:
         with:
           tag_name: latest
           name: Latest Resume
-          files: resume.pdf
+          files: JoeHahnResume.pdf
           make_latest: 'true'
