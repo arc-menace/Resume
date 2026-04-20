@@ -68,7 +68,7 @@ Software Engineer with experience at Nuqleous (now Engine) and Engineering with 
 
 # Skills
 
-C#, Vue, AI Accelerated Development, Automated Testing, JavaScript/TypeScript, SQL, Entity Framework, React, React Native, Python, Agile, UI/UX, Public Speaking, Space Planning, SolidWorks, MATLAB
+C#, Vue, AI Accelerated Development, Automated Testing, CI/CD, JavaScript, TypeScript, SQL, Entity Framework, Flux State Patterns, React, React Native, Python, Agile, UI/UX, Public Speaking, Space Planning, SolidWorks, MATLAB
 
 # Education
 
