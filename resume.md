@@ -41,9 +41,9 @@ Software Engineer with experience at Nuqleous (now Engine) and Engineering with 
 
 - Developed new features in WPF and Blazor Hybrid desktop applications, delivering significant efficiency gains over legacy software
 - Identified and resolved high-impact bugs affecting customers
-- Travelled onsite to resolve technical issues
+- Travelled onsite to resolve technical issues for a high profile customer
 - Implemented automated testing to improve code resiliency and QA coverage
-- Participated in Agile sprint planning cycles
+- Agile sprint planning cycles
 - Reviewed pull requests and provided feedback to other engineers
 - Contributed to a ground-up UI/UX redesign for a Vue 3 micro-frontend web app
 
@@ -68,7 +68,7 @@ Software Engineer with experience at Nuqleous (now Engine) and Engineering with 
 
 # Skills
 
-C#, Vue, React, React Native, JavaScript/TypeScript, SQL, Entity Framework, Python, Automated Testing, Agile, UI/UX, Public Speaking, Space Planning, SolidWorks, MATLAB
+C#, Vue, AI Accelerated Development, Automated Testing, JavaScript/TypeScript, SQL, Entity Framework, React, React Native, Python, Agile, UI/UX, Public Speaking, Space Planning, SolidWorks, MATLAB
 
 # Education
 
