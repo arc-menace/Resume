@@ -1,0 +1,3 @@
+To generate a test pdf, run the following command:
+
+`del test-output.pdf && pandoc resume.md --pdf-engine=xelatex -o test-output.pdf`
