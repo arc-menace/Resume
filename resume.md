@@ -25,7 +25,7 @@ header-includes:
 
 \vspace{2pt}
 
-Software Engineer \textbar{} Bentonville, AR \textbar{} www.joe-hahn.com \textbar{}
+Software Engineer \textbar{} Bentonville, AR \textbar{} www.joe-hahn.com \textbar{} contact@joe-hahn.com
 
 \end{center}
 
