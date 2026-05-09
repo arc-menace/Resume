@@ -18,19 +18,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
 
-      - name: Install Microsoft fonts
-        run: |
-          echo "ttf-mscorefonts-installer msttcorefonts/accepted-mttcorefonts-eula select true" | sudo debconf-set-selections
-          sudo apt-get install -y ttf-mscorefonts-installer
-          sudo fc-cache -f -v
-
       - name: Build PDF
-        run: |
-          docker run --rm \
-            -v "${{ github.workspace }}:/data" \
-            -v /usr/share/fonts:/usr/share/fonts:ro \
-            pandoc/extra:latest \
-            resume.md --pdf-engine=xelatex -o JoeHahnResume.pdf
+        uses: docker://pandoc/extra:latest
+        with:
+          args: >-
+            resume.md
+            --pdf-engine=xelatex
+            -o JoeHahnResume.pdf
 
       - name: Publish to 'latest' release
         uses: softprops/action-gh-release@v2

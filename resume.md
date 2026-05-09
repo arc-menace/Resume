@@ -1,7 +1,4 @@
 ---
-mainfont: "Georgia"
-monofont: "Cascadia Code"
-sansfont: "Georgia"
 geometry: margin=0.5in
 fontsize: 10pt
 colorlinks: true
