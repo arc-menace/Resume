@@ -52,12 +52,12 @@ Experienced Software Engineer with 4+ years building enterprise automation and d
 **Nuqleous (now Engine)** \hfill Bentonville, AR\
 **Software Engineer I** \hfill 08/2022 -- 01/2025
 
-- Developed and shipped a legacy database integration to Shelf IQ from the ground up, improving planogram processing speeds by over 10x
-- Built a user-customizable Action Workflow system with run/stop controls, progress tracking, and step-by-step execution, with multithreaded background processing via pooled Space Planning instances
+- Developed a legacy database integration for Shelf IQ that increased planogram processing speed by 10x
+- Built a user‑customizable Action Workflow system with run/stop controls, progress tracking, and multithreaded background processing via pooled Space Planning instances
 - Built a suite of planogram automation actions used by hundreds of users across dozens of global brands including Walmart, Anheuser-Busch, Coca-Cola, and Mars
 - Created a sharing/notification system enabling cross-company collaboration for profiles, actions, action lists, data sources, and validation sets
 - Upgraded Shelf IQ from .NET 7 to .NET 9, enforcing zero-warning builds across all projects
-- Resolved 222 defects and 26 customer-escalated issues across a 2.5-year period
+- Resolved 222 defects and 26 escalated issues, improving system stability over 2.5 years
 - Travelled onsite to unblock a prospective customer's proof-of-concept, resolving technical integration issues that enabled the evaluation to proceed
 
 \vspace{4pt}
