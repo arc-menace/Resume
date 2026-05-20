@@ -2,11 +2,12 @@
 geometry: margin=0.5in
 fontsize: 10pt
 colorlinks: true
-linkcolor: purple
-urlcolor: purple
+linkcolor: blue
+urlcolor: blue
 header-includes:
   - \pagenumbering{gobble}
   - \usepackage{titlesec}
+  - \usepackage{hyperref}
   - \usepackage{enumitem}
   - |
     `\titleformat{\section}{\large\bfseries\uppercase}{}{0pt}{}[\titlerule]`{=latex}
@@ -25,7 +26,7 @@ header-includes:
 
 \vspace{2pt}
 
-Software Engineer \textbar{} Bentonville, AR \textbar{} www.joe-hahn.com \textbar{} contact@joe-hahn.com
+Software Engineer \textbar{} Bentonville, AR \textbar{} \href{https://www.joe-hahn.com}{www.joe-hahn.com}\textbar{} \href{mailto:contact@joe-hahn.com}{contact@joe-hahn.com}
 
 \end{center}
 
@@ -33,31 +34,30 @@ Software Engineer \textbar{} Bentonville, AR \textbar{} www.joe-hahn.com \textba
 
 # Summary
 
-Experienced Software Engineer with 4+ years building enterprise automation and data analytics software used by hundreds of users at some of the world's largest brands. Specialize in the .NET ecosystem across web and desktop environments as well as with frontend UI frameworks like Vue and Blazor.
+Experienced Full-Stack Software Engineer with over 5 years building enterprise automation and data analytics software used by hundreds of users at some of the world's largest brands. Specialize in the .NET ecosystem across web and desktop environments as well as with frontend UI frameworks like Vue and Blazor.
 
 # Experience
 
 **Nuqleous (now Engine)** \hfill Bentonville, AR\
 **Software Engineer II** \hfill 01/2025 -- Present
 
-- Refactored real-time planogram data components for cross-product integration
 - Owned the rewrite of several complex sections of a Vue 3 micro-frontend alongside a team of two other engineers to significantly improve UX
 - Resolved 22 customer-reported defects across major retail accounts including Sam's Club and Walgreens
-- Built a bulk planogram validation system and a guided rename-project wizard, and extended the Assortment Adjustment action with user-requested capabilities
-- Refactored legacy action codebases for maintainability and integrated agentic AI tooling to accelerate development
-- Implemented automated testing to improve code resiliency and QA coverage
+- Built a multithreaded background planogram validation system which reduced user validation times by up to 95%
+- Refactored legacy action codebases for improved maintainability and reduced technical debt
+- Implemented automated UI, integration and E2E testing using xUnit, Gherkin and Playwright to improve code resiliency and QA coverage
+- Built product integration for legacy SQL Server and Oracle system with custom caching and data difference calculation using Dapper and Entity Framework, reducing planogram processing time by over 90%
 
 \vspace{4pt}
 
 **Nuqleous (now Engine)** \hfill Bentonville, AR\
 **Software Engineer I** \hfill 08/2022 -- 01/2025
 
-- Developed a legacy database integration for Shelf IQ that increased planogram processing speed by 10x
-- Built a user‑customizable Action Workflow system with run/stop controls, progress tracking, and multithreaded background processing via pooled Space Planning instances
+- Built a user‑customizable, Action Workflow system with run/stop controls, progress tracking, and multithreaded background processing via pooled worker instances
 - Built a suite of planogram automation actions used by hundreds of users across dozens of global brands including Walmart, Anheuser-Busch, Coca-Cola, and Mars
-- Created a sharing/notification system enabling cross-company collaboration for profiles, actions, action lists, data sources, and validation sets
-- Upgraded Shelf IQ from .NET 7 to .NET 9, enforcing zero-warning builds across all projects
-- Resolved 222 defects and 26 escalated issues, improving system stability over 2.5 years
+- Created a sharing/notification system enabling cross-company collaboration deployed as Docker containers in Azure
+- Upgraded enterprise desktop app from .NET 7 to .NET 9, enforcing zero-warning builds across all projects
+- Resolved 220+ defects across a 2.5-year span on a legacy enterprise codebase, improving system stability
 - Travelled onsite to unblock a prospective customer's proof-of-concept, resolving technical integration issues that enabled the evaluation to proceed
 
 \vspace{4pt}
@@ -65,9 +65,9 @@ Experienced Software Engineer with 4+ years building enterprise automation and d
 **Engineering with IT** \hfill Gravette, AR\
 **Software Engineer** \hfill 01/2022 -- 08/2022
 
-- Spearheaded development of a customizable, web-based alcohol menu system for bars and restaurants
+- Led development of a customizable, web-based alcohol menu system for bars and restaurants
 - Built a custom JWT authentication system for customer and admin access
-- Met regularly with clients to define requirements and deliver status updates
+- Gathered client requirements and translated them into feature specs through regular stakeholder meetings
 - Built, picked hardware for, and tested an Android TV app in Java
 - Managed an Entity Framework code-first database for product and customer data
 
@@ -81,7 +81,7 @@ Experienced Software Engineer with 4+ years building enterprise automation and d
 
 # Skills
 
-C#, Vue, Automated Testing, CI/CD, JavaScript, TypeScript, SQL, Entity Framework, Docker, Git, REST APIs, Snowflake, React/React Native, Python, Agile, UI/UX, Space Planning
+C#, TypeScript, JavaScript, Vue, React/React Native, Python, SQL, Entity Framework, Dapper, Snowflake, Docker, Git, REST APIs, JWT, Automated Testing, CI/CD, Agile, UI/UX Design, Dependency Injection
 
 # Education
 
