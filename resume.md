@@ -26,7 +26,7 @@ header-includes:
 
 \vspace{2pt}
 
-Software Engineer \textbar{} Bentonville, AR \textbar{} \href{https://www.joe-hahn.com}{www.joe-hahn.com}\textbar{} \href{mailto:contact@joe-hahn.com}{contact@joe-hahn.com}
+Software Engineer \textbar{} Bentonville, AR \textbar{} \href{https://www.joe-hahn.com}{www.joe-hahn.com} \textbar{} \href{mailto:contact@joe-hahn.com}{contact@joe-hahn.com}
 
 \end{center}
 
