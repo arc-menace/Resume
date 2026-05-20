@@ -34,7 +34,7 @@ Software Engineer \textbar{} Bentonville, AR \textbar{} \href{https://www.joe-ha
 
 # Summary
 
-Experienced Full-Stack Software Engineer with over 5 years building enterprise automation and data analytics software used by hundreds of users at some of the world's largest brands. Specialize in the .NET ecosystem across web and desktop environments as well as with frontend UI frameworks like Vue and Blazor.
+Software Engineer II delivering enterprise automation and data‑analytics solutions within the .NET ecosystem. Proven track record includes redesigning a Vue 3 micro‑frontend that boosted user experience and implementing a multithreaded planogram validation system that cut processing time by up to 95%. Skilled in C#, TypeScript, Vue, Blazor, and automated testing frameworks. Seeking to apply full‑stack expertise to accelerate product innovation and operational efficiency.
 
 # Experience
 
@@ -65,7 +65,7 @@ Experienced Full-Stack Software Engineer with over 5 years building enterprise a
 **Engineering with IT** \hfill Gravette, AR\
 **Software Engineer** \hfill 01/2022 -- 08/2022
 
-- Led development of a customizable, web-based alcohol menu system for bars and restaurants
+- Led development of a customizable, web-based alcohol menu system for bars and restaurants using Blazor for the front end and .NET and Entity Framework on the backend
 - Built a custom JWT authentication system for customer and admin access
 - Gathered client requirements and translated them into feature specs through regular stakeholder meetings
 - Built, picked hardware for, and tested an Android TV app in Java
@@ -76,8 +76,8 @@ Experienced Full-Stack Software Engineer with over 5 years building enterprise a
 **Engineering with IT** \hfill Gravette, AR\
 **Software Engineer Intern** \hfill 06/2021 -- 01/2022
 
-- Built an internal CRM tool using SQL and .NET Core
-- Collaborated with engineers to develop and test application procedures
+- Built an internal CRM tool using SQL, .NET Core, and WPF
+- Collaborated with engineers to develop and test application procedures in Agile sprints
 
 # Skills
 
